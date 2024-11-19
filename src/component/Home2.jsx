@@ -2,7 +2,6 @@ import React from 'react'
 import new1 from './new1.png'
 import gb from './gb.webp'
 import sb from './sb.jpg'
-import shiv from './shiv.jpg'
 import hand from './hand.jpg'
 import './Home1.css'
 
@@ -44,8 +43,8 @@ export default function Home2() {
 
         {/* invitation */}
         <div className='mt-5 text-center my-5 py-5 ' id='about'>
-          <div className="row d-flex justify-content-center align-items-center ms-3 ms-sm-0 " style={{ height: 'auto', width: '100%' }} id='box'>
-            <div className='col-sm-12 col-md-12 col-lg-12 flex-wrap border border-1 border-dark border-opacity-25 shadow ' style={{ height: 'auto', width: '500px' }}>
+          <div className="row d-flex justify-content-center align-items-center ms-0 ms-sm-0 " style={{ height: 'auto', width: '100%' }} id='box'>
+            <div className='col-sm-12 col-md-12 col-lg-12 flex-wrap border border-1 border-dark border-opacity-25 shadow ' style={{ height: 'auto', width: '100%' }}>
               <h5 className='mt-5 text-center'>DEAR FRIENDS AND FAMILY</h5> <br />
               <h1>We Are Getting <br /> Married</h1> <br />
               <p>Mr.Murugesh - Mrs.Vishalakshi</p>
@@ -73,7 +72,7 @@ export default function Home2() {
         {/* wedding ceromony */}
         <div className="row" id='mugutham' >
           <div className='col-sm-1 col-md-6 col-lg-6 text-center  '>
-            <img src={shiv} alt="" className='img-fluid' style={{ height: '250px',width:'250px', borderRadius: '50%' }} />
+            <img src='https://png.pngtree.com/png-vector/20240421/ourlarge/pngtree-cute-cartoon-wedding-couple-png-image_12305373.png' alt="" className='img-fluid' style={{ height: '250px',width:'250px', borderRadius: '50%' }} />
             <p className='mt-3'><span> Reception</span></p>
 
           </div>
@@ -124,7 +123,7 @@ export default function Home2() {
         </h2>
       </div>
       <div className='text-center fixed-bottom' id='footer'>
-        <p>2025 © Wedding Invitation . <br /> Design & Developed by Vishnu</p>
+        <p>2025 © Wedding Invitation  . <br /> Design & Developed by Vishnu</p>
       </div>
     </div>
   )
