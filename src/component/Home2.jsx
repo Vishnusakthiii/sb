@@ -1,5 +1,7 @@
 import React from 'react'
 import new1 from './new1.png'
+import wl from './wl.png'
+import kihg from './kihg.png'
 import gb from './gb.webp'
 import sb from './sb.jpg'
 import hand from './hand.jpg'
@@ -42,9 +44,13 @@ export default function Home2() {
         {/* topsection */}
 
         {/* invitation */}
-        <div className='mt-5 text-center my-5 py-5 ' id='about'>
+        <div className=' mt-5 text-center my-5 py-5 ' id='about'>
           <div className="row d-flex justify-content-center align-items-center ms-0 ms-sm-0 " style={{ height: 'auto', width: '100%' }} id='box'>
-            <div className='col-sm-12 col-md-12 col-lg-12 flex-wrap border border-1 border-dark border-opacity-25 shadow ' style={{ height: 'auto', width: '100%' }}>
+            <div className='d-flex flex-wrap border border-1 border-dark border-opacity-25 shadow ' style={{ height: 'auto', width: '100%' }}>
+            <div className='col-sm-0 d-none col-md-0 d-lg-block col-lg-4'>
+              <img src={kihg} alt="" height={350} width={390} style={{marginTop:'50%'}}/>
+            </div>
+            <div className='col-sm-12  col-md-12  col-lg-4'>
               <h5 className='mt-5 text-center'>DEAR FRIENDS AND FAMILY</h5> <br />
               <h1>We Are Getting <br /> Married</h1> <br />
               <p>Mr.Murugesh - Mrs.Vishalakshi</p>
@@ -62,9 +68,12 @@ export default function Home2() {
                   <img src={gb} alt="" className='img-fluid' style={{ height: '80px', width: 'auto' }} />
                   <h6 style={{ padding: '30px' }}>To Have & To Hold </h6>
                 </div>
+                </div>
               </div>
+                <div className='text-center overflow-hidden col-sm-0 d-none d-lg-block col-md-0 col-lg-4 '>
+                  <img src={wl} alt="" height={300} width={390} style={{marginTop:'50%'}}  />
+                </div>
             </div>
-
           </div>
         </div>
         {/* invitation */}
@@ -72,7 +81,7 @@ export default function Home2() {
         {/* wedding ceromony */}
         <div className="row" id='mugutham' >
           <div className='col-sm-1 col-md-6 col-lg-6 text-center  '>
-            <img src='https://png.pngtree.com/png-vector/20240421/ourlarge/pngtree-cute-cartoon-wedding-couple-png-image_12305373.png' alt="" className='img-fluid' style={{ height: '250px',width:'250px', borderRadius: '50%' }} />
+            <img src='https://png.pngtree.com/png-vector/20240421/ourlarge/pngtree-cute-cartoon-wedding-couple-png-image_12305373.png' alt="" className='img-fluid' style={{ height: '250px', width: '250px', borderRadius: '50%' }} />
             <p className='mt-3'><span> Reception</span></p>
 
           </div>
@@ -80,7 +89,7 @@ export default function Home2() {
 
 
             <h5 style={{ marginTop: '50px', marginLeft: '20px' }}>On Sunday, <br />the 09 th March 2025 <br />
-             between  6.00 pm and 9.00 pm  </h5>
+              between  6.00 pm and 9.00 pm  </h5>
             <span style={{ marginTop: '40px' }} id='location'> @  Velan Mahal,Alagumalai ,<br /> Tirupur.</span>
             <br />
             {/* <a href="</location>"></a> */}
@@ -123,7 +132,7 @@ export default function Home2() {
         </h2>
       </div>
       <div className='text-center fixed-bottom' id='footer'>
-        <p>2025 © Wedding Invitation  . <br /> Design & Developed by Vishnu</p>
+        <small>2024 © Wedding Invitation  . <br /> Design & Developed by Vishnu</small>
       </div>
     </div>
   )
