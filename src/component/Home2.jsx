@@ -69,7 +69,7 @@ export default function Home2() {
                   <h6 style={{ padding: '30px' }}>To Have & To Hold </h6>
                 </div>
                 </div>
-              </div>
+              </div> 
                 <div className='text-center overflow-hidden col-sm-0 d-none d-lg-block col-md-0 col-lg-4 '>
                   <img src={wl} alt="" height={300} width={390} style={{marginTop:'50%'}}  />
                 </div>
