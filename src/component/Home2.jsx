@@ -96,6 +96,8 @@ export default function Home2() {
             <div className='text-center'>
 
               <button className='btn btn-success mt-3'><a href="https://maps.app.goo.gl/Ei56RdvZsyD4nM1eA?g_st=it" style={{ textDecoration: 'none', color: 'white' }}>Location</a></button>
+              <div className='col-12 mt-5 ' >
+              <small> Note : Click the Location to reach us..</small></div>
             </div>
           </div>
         </div>
@@ -117,6 +119,8 @@ export default function Home2() {
             <br />
             <div className='text-center'>
               <button className='btn btn-success mt-3'><a href="https://maps.app.goo.gl/sLXgRzUo2mkK1T9K7?g_st=ic" style={{ textDecoration: 'none', color: 'white' }}>Location</a></button>
+              <div className='col-12 mt-5' >
+              <small> Note : Click the Location to reach us..</small></div>
             </div>
           </div>
 
@@ -130,6 +134,7 @@ export default function Home2() {
           <br />    so your presence means a lot to us '
 
         </h2>
+     
       </div>
       <div className='text-center fixed-bottom' id='footer'>
         <small>2024 © Wedding Invitation  . <br /> Design & Developed by Vishnu</small>
