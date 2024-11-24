@@ -4,6 +4,13 @@
     margin: 0%;
     padding: 0%;
 }
+#full{
+    background-color: rgb(222, 226, 240);
+}
+
+#half{
+    background-color: azure;
+}
 .home {
 
     font-family: "Eczar", serif;
@@ -14,7 +21,7 @@
 
 #navbar-example2 {
     z-index: 1;
-    background-color: rgb(49, 45, 90);
+    background-color: rgb(32, 30, 59);
     height: 60px;
     width: 100%;
     position: fixed;
@@ -24,7 +31,7 @@
 
 }
 #footer{
-    background-color: rgb(49, 45, 90);
+    background-color: rgb(32, 30, 59);
     margin-top: 150px;
     padding: 5px;
     bottom: 0%;
@@ -171,10 +178,10 @@ span {
     width: 40%;
     /* color: aliceblue; */
     /* background-color: rgba(235, 235, 231, 0.667); */
-    background-color:rgb(213, 216, 232);
+    /* background-color:rgb(213, 216, 232); */
     border: none;
-    box-shadow: 30px rgb(1, 1, 1);
-    /* background-image: url(''); */
+    box-shadow: 100px rgb(1, 1, 1);
+    background-image: url('designcol.png');
    background-position: center;
 background-attachment: scroll;
 background-size: cover;
